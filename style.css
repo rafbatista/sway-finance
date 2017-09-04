@@ -1,0 +1,33 @@
+.topnav {
+  background-color: rgb(31, 37, 49);
+  margin: 0;
+}
+
+#logo {
+  width: 10%;
+  padding: 2% 0 2% 11%;
+}
+
+.topnav span {
+  float: right;
+  box-sizing: border-box;
+  padding: 3% 2% 0 0;
+  color: rgb(167, 169, 174);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#sign-up {
+  margin: 0 10% 0 0;
+}
+
+button {
+  box-sizing: border-box;
+  position: relative;
+  padding: 7.5px 18px;
+  margin-top: -5px;
+  border-radius: 3px;
+  background-color: rgb(0, 215, 126);
+  color: white;
+  border-width: inherit;
+  font-family: 'Titillium Web';
+}
