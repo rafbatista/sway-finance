@@ -1,6 +1,5 @@
-.topnav {
+body {
   background-color: rgb(31, 37, 49);
-  margin: 0;
 }
 
 #logo {
@@ -20,7 +19,7 @@
   margin: 0 10% 0 0;
 }
 
-button {
+.button-1 {
   box-sizing: border-box;
   position: relative;
   padding: 7.5px 18px;
@@ -30,4 +29,76 @@ button {
   color: white;
   border-width: inherit;
   font-family: 'Titillium Web';
+}
+
+.body {
+  margin-top: 7%;
+}
+
+.vid-heading {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  margin-top: 4%;
+  padding-left: 11%;
+  box-sizing: border-box;
+}
+
+.vid-heading h1 {
+  margin-top: 9%;
+  padding-right: 61%;
+  line-height: 120%;
+  font-family: 'Titillium Web';
+  font-weight: 400;
+  color: white;
+  font-size: -webkit-xxx-large;
+}
+
+.vid-heading p {
+  margin-top: -1%;
+  margin-right: 65%;
+  font-family: 'Source Sans Pro';
+  color: rgb(167, 169, 174);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+input#textbox {
+  width: 27%;
+  line-height: 39px;
+  border: inherit;
+  border-radius: 3px 0 0 3px;
+  margin-top: 15px;
+}
+
+input#submit {
+  display: inline-block;
+  margin-left: 9px;
+  width: 10%;
+  line-height: 265%;
+  border-width: inherit;
+  border-radius: 0 3px 3px 0;
+  background-color: rgb(0, 215, 126);
+  color: white;
+  font-family: 'Titillium Web';
+  font-size: 14px;
+}
+
+.video-1 {
+  display: inline-block;
+  float: left;
+}
+
+#video-1 {
+  position: relative;
+  width: 54.5%;
+  margin: 12% 0 0 72.3%;
+  border-radius: 4px;
+}
+
+#play-button {
+  position: absolute;
+  width: 104px;
+  margin-top: -16%;
+  margin-left: 65%;
 }
